@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color: #222222;
+}
+
+header {
+    background: url("header.jpg") no-repeat fixed;
+    /* background-size: cover; */
+    background-position: bottom center;
+    height: 500px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 500px;
+    user-select: none;
+}
+
+main {
+    width: 80%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+div.projects {
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin-top: 60px;
+}
+
+div.projects a {
+    text-decoration: underline;
+    font-size: 26px;
+    color: white;
+}
+
+div.projects p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+div.projects img {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+
+article {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article h1 {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+article p {
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+footer, footer a {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background-color: #111111;
+}
