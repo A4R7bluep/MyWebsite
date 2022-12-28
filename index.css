@@ -74,6 +74,10 @@ article p {
     line-height: 1.3;
 }
 
+article div#quickcontacts {
+    height: 60px;
+}
+
 article div#quickcontacts a {
     border: 2px solid white;
     border-radius: 100px;
