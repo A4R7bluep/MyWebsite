@@ -147,6 +147,8 @@ footer {
 @media screen and (max-device-width: 799px) {
     header {
         height: 200px;
+        background-size: auto;
+        background-position: bottom center;
     }
 
     header div h3 {
